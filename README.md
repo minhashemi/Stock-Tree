@@ -1,7 +1,4 @@
-# cs50x
-This is my CS50x Final Project. 
-
-## Pricey
+# Pricey
 
 ### Video Demo: <https://youtu.be/09CZvdmaIn0>
 ---
