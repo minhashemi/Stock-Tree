@@ -1,48 +1,41 @@
 # Pricey
 
-### Video Demo: <https://youtu.be/09CZvdmaIn0>
+### Video Demo: [https://youtu.be/09CZvdmaIn0](https://youtu.be/09CZvdmaIn0)
 ---
 
 ### Description:
 
 ### Introduction
-The world is growing fast and human minds are being replaced by computers. Recently I listened to ML podcast by CS50 and found that I'm really interested in Machine Learning. So I started exploring the depth of ML ocean, Deep Learning.
-As my first project in ML, I decided to design a price prediction model to use former data of a ticker (symbol of company or currency in stock market) to predict price of different stock markets and currencies in the future.
+The world is advancing rapidly, and human minds are being augmented by computers. Inspired by an ML podcast by CS50, I delved into the realm of Machine Learning, particularly Deep Learning. My inaugural ML project involves crafting a price prediction model that leverages historical ticker data (symbols representing companies or currencies in the stock market) to forecast prices across various stock markets and currencies.
 
-### How the Algorithm works?
+### How the Algorithm Works?
 ##### Decision Trees
-A decision tree is a non-parametric supervised learning algorithm, which is utilized for both classification and regression tasks. It has a hierarchical, tree structure, which consists of a root node, branches, internal nodes and leaf nodes. (source: [IBM](https://www.ibm.com/topics/decision-trees "What is a Decision Tree?"))
-##### Why Not Predicting future?
-At first, we want to make sure how accurate the model is, so we will use the data from past few years except past month to train the model and predict past month worth and compare them to real market. There are some modifications which can be done to the model to get more accurate results. Whenever we get an accurate model, it can be shifted a month and predict future prices. (TODO in the FUTURE)
+A decision tree is a non-parametric supervised learning algorithm, adept at both classification and regression tasks. It features a hierarchical tree structure, comprising a root node, branches, internal nodes, and leaf nodes. (Source: [IBM](https://www.ibm.com/topics/decision-trees "What is a Decision Tree?"))
 
-### How to use?
-Before doing anything, make sure to run `pip install -r requirements.txt` to install required libraries.
-Simply run `python main.py`, then enter a valid ticker (like "AAPL" for Apple Inc., "GOOGL" for Google Inc., "USD" for US Dollar, etc.) and hit enter. The model will use data from Yahoo Finance API of past few years, to train and predict the future price of the market.
+##### Evaluating Future Predictions
+To ensure model accuracy, the initial phase involves training the model on past data from preceding years, excluding the most recent month. Predictions for the past month are then compared against actual market performance. Subsequent enhancements to the model can potentially facilitate future price predictions. (TODO in the FUTURE)
 
-![Project output](/Figure_1.png?raw=true "APPL")
+### How to Use?
+Begin by running `pip install -r requirements.txt` to install necessary libraries. Execute `python main.py`, and input a valid ticker symbol (e.g., "AAPL" for Apple Inc., "GOOGL" for Google Inc., "USD" for US Dollar, etc.). The model will employ data from Yahoo Finance API spanning several years for training and predicting future market prices.
 
-In figure above, you can see the predicted vs real value for Apple Inc. stock.
+![Project Output](/Figure_1.png?raw=true "APPL")
 
+In the figure above, a comparison between predicted and actual values for Apple Inc. stock is depicted.
 
 ### Technical
-In this project, the analysis will be done on data with following packages:
-- `yfinance` is used to communicate with Yahoo Finance API
-- `numpy` will be a bridge between yahoo finance API and scikit-learn
-- `scikit-learn` will train our ML model
-- `matplotlib` to plot data and make the analyzed data visual
+This project employs the following packages for data analysis:
+- `yfinance` facilitates communication with Yahoo Finance API
+- `numpy` serves as a bridge between Yahoo Finance API and scikit-learn
+- `scikit-learn` is employed for training the ML model
+- `matplotlib` is used for data visualization and analysis
 
 ### Modification
-You are welcome to edit the date range within the program by editing `start_date` and `end_date` to include more or less data.
-The only limit (which is from server side) is that you can only make 2000 requests per hour per IP.
-you may test the result by testing the neural network for any currency or company you want. But keep in mind to enter the formal ticker which can be easily found on the internet.
+You are welcome to adjust the date range within the program by modifying `start_date` and `end_date` to encompass more or less data. It's important to note that there is a server-side limit of 2000 requests per hour per IP address. Feel free to test the neural network's performance on various currencies or companies, provided you input the proper ticker symbol readily available online.
 
 ### TODO
-I will try to improve the neural network and make it more efficient.
-After having an efficient algorithm, it's time for future predictions.
+My journey in the field of ML is just beginning, and there is much to explore 👨🏻‍💻. I aim to refine and optimize the neural network, striving for increased efficiency. Once the algorithm is finely tuned, I look forward to venturing into future predictions.
 
-I'm in the beginning of my long road in ML. There are a lot to do 👨🏻‍💻
----
+Amin.
 
 HBD to me 🥳
 Dec 26, 2022
-Amin.
