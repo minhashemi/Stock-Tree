@@ -1,41 +1,55 @@
-# Pricey
+# 📊 Pricey: Unveiling the Future of Price Predictions 📈💰
 
-### Video Demo: [https://youtu.be/09CZvdmaIn0](https://youtu.be/09CZvdmaIn0)
+### 🎥 Video Demo: [Witness the Magic!](https://youtu.be/09CZvdmaIn0)
 ---
 
-### Description:
+### 🌟 Introduction
 
-### Introduction
-The world is advancing rapidly, and human minds are being augmented by computers. Inspired by an ML podcast by CS50, I delved into the realm of Machine Learning, particularly Deep Learning. My inaugural ML project involves crafting a price prediction model that leverages historical ticker data (symbols representing companies or currencies in the stock market) to forecast prices across various stock markets and currencies.
+In a world where technology's rapid stride is propelling us forward, the synergy between human ingenuity and computational prowess is a sight to behold. Inspired by the enlightening tunes of an ML podcast by CS50, I embarked on a captivating journey into the enchanting realm of Machine Learning, with a special focus on the alluring landscapes of Deep Learning. Behold my maiden ML creation - a symphony of prediction and numbers, affectionately named "Pricey."
 
-### How the Algorithm Works?
-##### Decision Trees
-A decision tree is a non-parametric supervised learning algorithm, adept at both classification and regression tasks. It features a hierarchical tree structure, comprising a root node, branches, internal nodes, and leaf nodes. (Source: [IBM](https://www.ibm.com/topics/decision-trees "What is a Decision Tree?"))
+### 🤖 How the Algorithm Unfolds
 
-##### Evaluating Future Predictions
-To ensure model accuracy, the initial phase involves training the model on past data from preceding years, excluding the most recent month. Predictions for the past month are then compared against actual market performance. Subsequent enhancements to the model can potentially facilitate future price predictions. (TODO in the FUTURE)
+##### The Dance of Decision Trees 🌳
+Imagine a non-parametric marvel of supervised learning - the Decision Tree. It's the master of classifications and regressions, adorned with a majestic hierarchical structure. At its heart lies a tapestry of nodes - roots, branches, internals, and leaves - orchestrating a grand spectacle of insights. (Source: [IBM](https://www.ibm.com/topics/decision-trees "What is a Decision Tree?"))
 
-### How to Use?
-Begin by running `pip install -r requirements.txt` to install necessary libraries. Execute `python main.py`, and input a valid ticker symbol (e.g., "AAPL" for Apple Inc., "GOOGL" for Google Inc., "USD" for US Dollar, etc.). The model will employ data from Yahoo Finance API spanning several years for training and predicting future market prices.
+##### A Glimpse into Tomorrow 📅
+The journey towards precision is paved with historical tales. Our protagonist, the model, undergoes an initiation rite involving immersive training with data from yesteryears. Armed with this wisdom, the model peers into the future, juxtaposing predictions with reality. As time evolves, the model's elegance evolves, promising an enchanting dance of future predictions. (TODO: Destiny unfolding in the FUTURE)
 
-![Project Output](/Figure_1.png?raw=true "APPL")
+### 🚀 Embarking on Your Pricey Adventure
 
-In the figure above, a comparison between predicted and actual values for Apple Inc. stock is depicted.
+Ready to chart your course into the realm of price predictions? Fear not, for I've laid the path adorned with stars and Python scripts. Here's how:
 
-### Technical
-This project employs the following packages for data analysis:
-- `yfinance` facilitates communication with Yahoo Finance API
-- `numpy` serves as a bridge between Yahoo Finance API and scikit-learn
-- `scikit-learn` is employed for training the ML model
-- `matplotlib` is used for data visualization and analysis
+1. **Prelude**: Set the stage with `pip install -r requirements.txt` to summon the necessary libraries.
+2. **Unleash the Magic**: With a triumphant `python main.py`, cast the spotlight on your chosen ticker symbol (e.g., "AAPL" for Apple Inc., "GOOGL" for Google Inc., "USD" for US Dollar). A journey through Yahoo Finance API and years of data awaits.
+3. **Visual Enchantment**: Behold the symphony of visual storytelling as your model conjures a comparison between its predictions and the tantalizing dance of market reality.
 
-### Modification
-You are welcome to adjust the date range within the program by modifying `start_date` and `end_date` to encompass more or less data. It's important to note that there is a server-side limit of 2000 requests per hour per IP address. Feel free to test the neural network's performance on various currencies or companies, provided you input the proper ticker symbol readily available online.
+![Project Magic](/Figure_1.png?raw=true "APPL")
 
-### TODO
-My journey in the field of ML is just beginning, and there is much to explore 👨🏻‍💻. I aim to refine and optimize the neural network, striving for increased efficiency. Once the algorithm is finely tuned, I look forward to venturing into future predictions.
+The ethereal dance of predicted and actual values for Apple Inc. stock, captured in the masterpiece above.
 
-Amin.
+### 🛠️ Behind the Technical Curtain
 
-HBD to me 🥳
+This magical experience is powered by a consortium of packages, each playing its enchanting role:
+
+- 📊 `yfinance`: A mystical communicator with Yahoo Finance API.
+- 🎲 `numpy`: A magician's bridge between the mystical API and the land of scikit-learn.
+- 🧙‍♀️ `scikit-learn`: A sorcerer's tool for training the ML model.
+- 🌌 `matplotlib`: An artist's canvas for crafting visual masterpieces.
+
+### 🧪 Unveiling the Alchemical Art
+
+Feel the urge to tinker and tune? You're invited to explore the alchemical chambers:
+
+- 🔮 Alter the Passage of Time: With a mere adjustment of `start_date` and `end_date`, reshape the dimensions of your temporal voyage.
+- 🌐 Embrace Limitations: Mind the server-side cap of 2000 requests per hour per IP. Alas, even magic has its constraints.
+- 📈 Chart Uncharted Territories: Venture into diverse realms, exploring currencies and companies, as long as the proper ticker symbol guides your way.
+
+### 🔮 The Road Ahead
+
+As the curtains rise on my journey through the mystic landscapes of ML, the adventure is far from over 👨🏻‍💻. Ahead lies the alchemy of refinement, where the neural network shall attain newfound prowess. And as the algorithm matures, the journey shall unfurl into the realm of future predictions, a destiny waiting to be woven.
+
+With Alchemical Wonder,
+Amin Hashemi
+
+🥳 Celebrating My Birth in the Digital Age 🥳
 Dec 26, 2022
