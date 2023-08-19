@@ -1,4 +1,4 @@
-# 📊 Pricey: Unveiling the Future of Price Predictions 📈💰
+# 📊 Enchanted Foresight: Orchestrating Future Price Predictions 📈💰
 
 ### 🎥 Video Demo: [Witness the Magic!](https://youtu.be/09CZvdmaIn0)
 ---
