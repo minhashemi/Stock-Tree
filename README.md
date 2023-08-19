@@ -1,4 +1,4 @@
-# 📊 Enchanted Foresight: Orchestrating Future Price Predictions 📈💰
+# 📊 Stock Tree: Orchestrating Future Price Predictions 📈💰
 
 ### 🎥 Video Demo: [Witness the Magic!](https://youtu.be/09CZvdmaIn0)
 ---
